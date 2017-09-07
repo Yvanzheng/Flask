@@ -1,0 +1,28 @@
+{
+    "id": "1",
+    "name": "selenium测试案例",
+    "notification": {
+        "notify": false,
+        "subject": "Test Report",
+        "ownerName": "All",
+        "mailList": [
+            "yufei.zheng@beebank.com",
+            "781604321@qq.com"
+        ]
+    },
+    "tasks": [
+        {
+            "id": 1,
+            "name": "登录测试",
+            "moduleName": "Test_Project.QA_Login.RestAPI.Test_way",
+            "className": "",
+            "functionName": "test_login_success",
+            "params": {
+            },
+            "run": 1,
+            "realtime": 1,
+            "expectedError": "",
+            "globalReturnedValue": 1
+        }
+    ]
+}

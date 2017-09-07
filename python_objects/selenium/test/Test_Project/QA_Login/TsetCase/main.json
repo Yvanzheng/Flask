@@ -1,0 +1,27 @@
+{
+    "params": {
+        "headers":{
+            "Content-Type": "application/json"
+        }
+    },
+    "notification": {
+        "notify": false,
+        "subject": "Test Report",
+        "ownerName": "All",
+        "mailList": [
+            "yufei.zheng@beebank.com"
+        ]
+    },
+    "executeType": "serial",
+    "suiteList": [
+        {
+            "suiteName": "QA_login",
+            "folderPath": "/api",
+            "run": 1,
+            "executeSequencer": [
+                "test_1.json"
+            ],
+            "notes": "mail"
+        }
+    ]
+}
